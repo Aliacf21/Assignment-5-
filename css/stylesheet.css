@@ -1,0 +1,157 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  background: #6AADEB;
+  height: 75px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+
+nav li {
+  display: block;
+  padding: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size:45px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size:26px;
+  text-decoration: none ;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16pt;
+}
+
+li a:hover:not(.active) {
+  background-color: #6AADEB;
+  color: white;
+}
+
+
+
+.active {
+  background-color: white;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.container img {
+  width: 100%;
+  height: 550px;
+
+}
+
+.container .btn {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6AADEB;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+}
+
+.container .btn:hover {
+  background-color: white;
+  color: #6AADEB;
+  border: 1px solid black;
+
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+  color: black;
+  height: 300px;
+  font-size: 20pt;
+}
+
+#shoppingCart {
+  width: 35px;
+  height: 35px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -11,7 +11,7 @@
 
 <section>
   <nav>
-    <ul  style="background-color: #6AADEB">
+    <ul  style="background-color: orange">
       <li style="float: left">Bun Bun Bake Shop</li>
       <li style="float: right"><a href="#"><img src="cart.png" width="35px" height="35px" style="margin-right: 10px"></a></li>
       <li style="float: right"><a href="homePage.html" style="margin-top: 0px">Home</a></li>
@@ -168,38 +168,49 @@
 
 
 
+<!--Modal for the product checkout-->
 <div class="modal">
+  <!--Photo of the product-->
   <div class="photoImage">
-    <img src="img6.jpeg" height= "600px" width="425px">
+    <img src="img6.png" id="myModal" alt="check out modal">
   </div>
+
   <div class="photoDescription"> 
- 
-      <div id="Banner"><h2>Pecan</h2></div>
+    <div id="Banner"><h2>Pecan</h2></div>
 
-  <div class="title"><p>Glazing</p></div>
-
+    <div class="title"><p>Glazing</p></div>
     <div id = "Glazing">
-      <button class="OvalButton OvalButton">None</button>
+      <!--Selection menu for glazing-->
+      <button class="OvalButton OvalButton" id = "preSelected1">None</button>
       <button class="OvalButton OvalButton">Vanilla-Milk</button>
       <button class="OvalButton OvalButton">Sugar-Milk</button>
       <button class="OvalButton OvalButton">Double</button>
     </div>
 
-  <div class="title"><p>Quantity</p></div>
+    <div class="title"><p>Quantity</p></div>
+    <div id = "Quantity">
+      <!--Selection menu for quantity-->
+      <button class="CircleButton" id="preSelected2">1</button>
+      <button class="CircleButton CircleButton">2</button>
+      <button class="CircleButton CircleButton">6</button>
+      <button class="CircleButton CircleButton">12</button>
+    </div>
 
-  <div id = "Quantity">
-    <button class="CircleButton">1</button>
-    <button class="CircleButton CircleButton">2</button>
-    <button class="CircleButton CircleButton">6</button>
-    <button class="CircleButton CircleButton">12</button>
-</div>
 
-  <div id="Done">
-    <a href="products.html"><button class="CheckoutButton">Checkout</button></a>
+    <div id="Done">
+
+      <button class="CheckoutButton" id="total1">
+      Total</button>
+      <button class="CheckoutButton" id="total2">
+      $1</button>
+    
+      <button class="CheckoutButton" onclick="window.location.href='products.html';" id="backButton">
+      Continue Browsing</button>
+
+      <button class="CheckoutButton" onclick="window.location.href='products.html';">Checkout</button>
+    </div>
   </div>
 </div>
-</div>
-
 
 </body>
 </html>

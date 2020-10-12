@@ -7,10 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  background-color: #666;
-  color: white;
-}
+
 
 /* Create two columns/boxes that floats next to each other */
 nav {
@@ -148,10 +145,4 @@ footer {
   height: 35px;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
+

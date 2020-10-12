@@ -237,6 +237,11 @@ section:after {
   border-radius: 5px;
 }
 
+#backButton{
+  color: black;
+  background-color: white; 
+  font-size: 14px;
+}
 
 
 .CircleButton {
@@ -255,6 +260,8 @@ section:after {
   margin-right: 20px;
   #margin: 20px;
 }
+
+
 
 a:hover:not(.active) .CheckoutButton{
   background-color: gray;

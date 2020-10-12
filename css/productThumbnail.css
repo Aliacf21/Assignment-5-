@@ -148,7 +148,7 @@ section:after {
 }
 
 .photoImage{
-  height: 600px;
+  height: 650px;
   width: 425px;
   float:left;
   #background-color: black;
@@ -159,7 +159,7 @@ section:after {
 }
 
 .photoDescription {
-  height: 600px;
+  height: 650px;
   width: 425px;
   float:right;
   background-color: white;
@@ -241,6 +241,27 @@ section:after {
   color: black;
   background-color: white; 
   font-size: 14px;
+  text-align: left;
+  margin: 0px 0px;
+  padding: 15px;
+}
+
+#total1 {
+  margin: 0;
+  width: 175px;
+  text-align: left;
+  color:black;
+  background-color: white; 
+  font-size: 18px;
+}
+
+#total2 {
+  margin: 0;
+  width: 175px;
+  text-align: right;
+  color:black;
+  background-color: white; 
+  font-size: 18px;
 }
 
 
@@ -296,6 +317,6 @@ a:hover:not(.active) .CheckoutButton{
 }
 
 #myModal {
-  height: 600px;
+  height: 650px;
   width: 425px;
 }

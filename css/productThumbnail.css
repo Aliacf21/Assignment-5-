@@ -289,7 +289,15 @@ a:hover:not(.active) .CheckoutButton{
   color: white;
 }
 
-#preSelected{
+#preSelected1{
+ color: orange; 
+ background-color: white;
+ border: 1px solid black;
+
+}
+
+
+#preSelected2{
  color: orange; 
  background-color: white;
  border: 1px solid black;

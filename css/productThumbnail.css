@@ -17,7 +17,7 @@ header {
 nav {
   float: left;
   width: 100%;
-  background: #6AADEB;
+  background: orange;
   height: 75px;
   box-shadow: 5px 10px 18px #888888;
 
@@ -172,7 +172,7 @@ section:after {
   text-align: center;
   font-size: 35px;
   color: white;
-  background-color: #6AADEB; 
+  background-color: orange; 
   height:150px;
 
 }
@@ -205,7 +205,7 @@ section:after {
 }
 
 .OvalButton {
-  background-color: #6AADEB; 
+  background-color: orange; 
   border: none;
   color: white;
   padding: 5px;
@@ -221,7 +221,7 @@ section:after {
 }
 
 .CheckoutButton {
-  background-color: #6AADEB; 
+  background-color: orange; 
   border: none;
   color: white;
   padding: 5px;
@@ -266,7 +266,7 @@ section:after {
 
 
 .CircleButton {
-  background-color: #6AADEB; 
+  background-color: orange; 
   border: none;
   color: white;
   padding: 15px;
@@ -290,11 +290,11 @@ a:hover:not(.active) .CheckoutButton{
 }
 
 #preSelected{
- color: #6AADEB; 
+ color: orange; 
  background-color: white;
  border: 1px solid black;
-}
 
+}
 
 .active {
   background-color: white;
